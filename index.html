@@ -12,19 +12,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#07080f; --bg2:#0d0f1c; --card:rgba(255,255,255,.04); --line:rgba(255,255,255,.09);
-  --text:#e8eaf6; --muted:#9aa0b8; --dim:#6b7190;
-  --c1:#22d3ee; --c2:#818cf8; --c3:#c084fc; --c4:#34d399; --warn:#fbbf24;
-  --grad:linear-gradient(110deg,var(--c1),var(--c2) 55%,var(--c3));
-  --mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
+  --bg:#07080f; --bg2:#0d0f1c; --card:rgba(255,255,255,.04); --line:rgba(255,255,255,.09);
+  --text:#e8eaf6; --muted:#9aa0b8; --dim:#6b7190;
+  --c1:#22d3ee; --c2:#818cf8; --c3:#c084fc; --c4:#34d399; --warn:#fbbf24;
+  --grad:linear-gradient(110deg,var(--c1),var(--c2) 55%,var(--c3));
+  --mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
 .bg-grid{position:fixed;inset:0;z-index:0;pointer-events:none;
-  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
-  background-size:64px 64px;opacity:.35;mask-image:radial-gradient(ellipse at 50% 0%,#000 20%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse at 50% 0%,#000 20%,transparent 75%)}
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:64px 64px;opacity:.35;mask-image:radial-gradient(ellipse at 50% 0%,#000 20%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse at 50% 0%,#000 20%,transparent 75%)}
 .orb{position:fixed;border-radius:50%;filter:blur(110px);opacity:.28;z-index:0;pointer-events:none}
 .orb.a{width:520px;height:520px;background:var(--c2);top:-160px;left:-120px}
 .orb.b{width:460px;height:460px;background:var(--c1);top:35%;right:-180px;opacity:.16}
@@ -192,363 +192,363 @@ footer{padding:36px 0 50px;text-align:center;color:var(--dim);font-size:.84rem;b
 <div class="bg-grid"></div><div class="orb a"></div><div class="orb b"></div><div class="orb c"></div>
 
 <nav>
-  <div class="wrap">
-    <a href="#top" class="logo"><span>&lt;</span>minor.madrigal<span>/&gt;</span></a>
-    <div class="links">
-      <a href="#about">About</a><a href="#ai">AI Engineering</a><a href="#rdi">R+D+I</a><a href="#agents">Agent Factory</a>
-      <a href="#journey">Journey</a><a href="#future">Future Skills</a><a href="#skills">Stack</a>
-    </div>
-    <a href="#contact" class="nav-cta">Let's talk</a>
-  </div>
+  <div class="wrap">
+    <a href="#top" class="logo"><span>&lt;</span>minor.madrigal<span>/&gt;</span></a>
+    <div class="links">
+      <a href="#about">About</a><a href="#ai">AI Engineering</a><a href="#rdi">R+D+I</a><a href="#agents">Agent Factory</a>
+      <a href="#journey">Journey</a><a href="#future">Future Skills</a><a href="#skills">Stack</a>
+    </div>
+    <a href="#contact" class="nav-cta">Let's talk</a>
+  </div>
 </nav>
 
 <main id="top">
 <!-- HERO -->
 <header class="hero">
-  <div class="wrap">
-    <div class="hero-grid">
-      <div>
-        <div class="badge"><span class="dot"></span> Senior Software Engineering Manager · Snap Finance</div>
-        <h1>Minor<br><span class="grad">Madrigal Arroyo</span></h1>
-        <p class="role"><b>AI-native engineering leader</b> · Java architect · 19+ years shipping platforms and growing teams across 10+ countries</p>
-        <p class="tagline">I build the systems, the agents and the teams that make software delivery faster, safer and more human — from Spring Boot microservices to RAG-powered assistants and fleets of Cursor agents that review, upgrade and document code.</p>
-        <div class="btns">
-          <a href="#agents" class="btn p">See the agent factory →</a>
-          <a href="#journey" class="btn g">Career journey</a>
-          <a href="https://www.linkedin.com/in/minormadrigal/" target="_blank" rel="noopener" class="btn g">LinkedIn ↗</a>
-        </div>
-        <div class="chips">
-          <span class="chip ai">AWS Bedrock</span><span class="chip ai">Guardrails</span><span class="chip ai">Knowledge Bases</span><span class="chip ai">AgentCore</span>
-          <span class="chip ai">RAG</span><span class="chip ai">LLMs</span><span class="chip ai">Cursor</span><span class="chip ai">Claude</span>
-          <span class="chip">Java · Spring Boot</span><span class="chip">AWS · Serverless</span><span class="chip">Platform Eng.</span>
-        </div>
-      </div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="badge"><span class="dot"></span> Senior Software Engineering Manager · Snap Finance</div>
+        <h1>Minor<br><span class="grad">Madrigal Arroyo</span></h1>
+        <p class="role"><b>AI-native engineering leader</b> · Java architect · 19+ years shipping platforms and growing teams across 10+ countries</p>
+        <p class="tagline">I build the systems, the agents and the teams that make software delivery faster, safer and more human — from Spring Boot microservices to RAG-powered assistants and fleets of Cursor agents that review, upgrade and document code.</p>
+        <div class="btns">
+          <a href="#agents" class="btn p">See the agent factory →</a>
+          <a href="#journey" class="btn g">Career journey</a>
+          <a href="https://www.linkedin.com/in/minormadrigal/" target="_blank" rel="noopener" class="btn g">LinkedIn ↗</a>
+        </div>
+        <div class="chips">
+          <span class="chip ai">AWS Bedrock</span><span class="chip ai">Guardrails</span><span class="chip ai">Knowledge Bases</span><span class="chip ai">AgentCore</span>
+          <span class="chip ai">RAG</span><span class="chip ai">LLMs</span><span class="chip ai">Cursor</span><span class="chip ai">Claude</span>
+          <span class="chip">Java · Spring Boot</span><span class="chip">AWS · Serverless</span><span class="chip">Platform Eng.</span>
+        </div>
+      </div>
 
-      <div class="term rv">
-        <div class="term-bar"><i></i><i></i><i></i><span>cursor — code-review-orchestrator</span></div>
-        <div class="term-body" id="term"></div>
-      </div>
-    </div>
+      <div class="term rv">
+        <div class="term-bar"><i></i><i></i><i></i><span>cursor — code-review-orchestrator</span></div>
+        <div class="term-body" id="term"></div>
+      </div>
+    </div>
 
-    <div class="stats">
-      <div class="stat rv"><div class="n grad" data-count="19" data-suffix="+">0</div><div class="t">Years in software</div></div>
-      <div class="stat rv"><div class="n grad" data-count="70">0</div><div class="t">AI agents authored</div></div>
-      <div class="stat rv"><div class="n grad" data-count="45" data-suffix="%">0</div><div class="t">Faster time-to-market</div></div>
-      <div class="stat rv"><div class="n grad" data-count="80" data-suffix="%">0</div><div class="t">Lower attrition</div></div>
-      <div class="stat rv"><div class="n grad" data-count="10" data-suffix="+">0</div><div class="t">Countries worked with</div></div>
-    </div>
-  </div>
+    <div class="stats">
+      <div class="stat rv"><div class="n grad" data-count="19" data-suffix="+">0</div><div class="t">Years in software</div></div>
+      <div class="stat rv"><div class="n grad" data-count="70">0</div><div class="t">AI agents authored</div></div>
+      <div class="stat rv"><div class="n grad" data-count="45" data-suffix="%">0</div><div class="t">Faster time-to-market</div></div>
+      <div class="stat rv"><div class="n grad" data-count="80" data-suffix="%">0</div><div class="t">Lower attrition</div></div>
+      <div class="stat rv"><div class="n grad" data-count="10" data-suffix="+">0</div><div class="t">Countries worked with</div></div>
+    </div>
+  </div>
 </header>
 
 <!-- ABOUT -->
 <section id="about">
-  <div class="wrap">
-    <div class="eyebrow">01 · About</div>
-    <h2 class="title">Engineering leadership for the <span class="grad">AI era</span></h2>
-    <div class="about">
-      <div class="rv">
-        <p>I'm a <strong>Senior Software Engineering Manager</strong> at Snap Finance, leading the merchant vertical across Costa Rica and India. For 19+ years I've designed enterprise platforms — fintech, automotive, telecom — and led distributed teams from junior developers to architects.</p>
-        <p>I also drive <strong>R+D+I</strong> at Snap, from the company's first partner-facing AI chatbot to an AI-powered, risk-based expansion of QA. Over the last two years I've pointed my experience at one question: <strong>how does AI change the software development lifecycle, and how do we adopt it responsibly?</strong> My answer is hands-on. I design RAG assistants on AWS Bedrock with Guardrails and Knowledge Bases, and I treat Cursor rules, skills and sub-agents as <strong>versioned engineering assets</strong> — reviewed, tested and shared like any other code.</p>
-        <p>A Bachelor's in Psychology (with honors) shapes how I lead: psychological safety, burnout prevention and deliberate career coaching. It's why my teams ship fast <em>and</em> stay. I also teach DevOps &amp; Cybersecurity as a university professor, and I'm completing a Master's in IT Management.</p>
-      </div>
-      <div class="rv">
-        <div class="card">
-          <p class="quote">“Code generation is becoming abundant. Judgment, alignment and trust are the scarce skills — so that's where I invest.”</p>
-          <div class="tags">
-            <span class="tag">Technology strategy</span><span class="tag">Platform modernization</span><span class="tag">AI adoption</span>
-            <span class="tag">Mentorship</span><span class="tag">SAFe</span><span class="tag">Psychology-informed leadership</span>
-          </div>
-        </div>
-        <div class="card" style="margin-top:20px">
-          <h3> Always learning</h3>
-          <p>One new technology a month, one deep article a week. Currently deepening agentic systems, AI evaluation, IT governance and security for LLM apps.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div class="wrap">
+    <div class="eyebrow">01 · About</div>
+    <h2 class="title">Engineering leadership for the <span class="grad">AI era</span></h2>
+    <div class="about">
+      <div class="rv">
+        <p>I'm a <strong>Senior Software Engineering Manager</strong> at Snap Finance, leading the merchant vertical across Costa Rica and India. For 19+ years I've designed enterprise platforms — fintech, automotive, telecom — and led distributed teams from junior developers to architects.</p>
+        <p>I also drive <strong>R+D+I</strong> at Snap, from the company's first partner-facing AI chatbot to an AI-powered, risk-based expansion of QA. Over the last two years I've pointed my experience at one question: <strong>how does AI change the software development lifecycle, and how do we adopt it responsibly?</strong> My answer is hands-on. I design RAG assistants on AWS Bedrock with Guardrails and Knowledge Bases, and I treat Cursor rules, skills and sub-agents as <strong>versioned engineering assets</strong> — reviewed, tested and shared like any other code.</p>
+        <p>A Bachelor's in Psychology (with honors) shapes how I lead: psychological safety, burnout prevention and deliberate career coaching. It's why my teams ship fast <em>and</em> stay. I also teach DevOps &amp; Cybersecurity as a university professor, and I'm completing a Master's in IT Management.</p>
+      </div>
+      <div class="rv">
+        <div class="card">
+          <p class="quote">“Code generation is becoming abundant. Judgment, alignment and trust are the scarce skills — so that's where I invest.”</p>
+          <div class="tags">
+            <span class="tag">Technology strategy</span><span class="tag">Platform modernization</span><span class="tag">AI adoption</span>
+            <span class="tag">Mentorship</span><span class="tag">SAFe</span><span class="tag">Psychology-informed leadership</span>
+          </div>
+        </div>
+        <div class="card" style="margin-top:20px">
+          <h3>🎓 Always learning</h3>
+          <p>One new technology a month, one deep article a week. Currently deepening agentic systems, AI evaluation, IT governance and security for LLM apps.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- AI ENGINEERING -->
 <section id="ai">
-  <div class="wrap">
-    <div class="eyebrow">02 · AI Engineering</div>
-    <h2 class="title">From prompt to <span class="grad">production-grade</span> AI</h2>
-    <p class="lead">I build AI the way I build any critical platform: grounded in data, governed by guardrails, observable, and designed to fail safely.</p>
+  <div class="wrap">
+    <div class="eyebrow">02 · AI Engineering</div>
+    <h2 class="title">From prompt to <span class="grad">production-grade</span> AI</h2>
+    <p class="lead">I build AI the way I build any critical platform: grounded in data, governed by guardrails, observable, and designed to fail safely.</p>
 
-    <div class="arch rv">
-      <div class="node"><div class="k">01 · Ground</div><h4>Knowledge Bases</h4><p>Curated, templated, text-only KB articles with metadata sidecars; chunk-friendly and sensitive-data validated before ingest.</p></div>
-      <div class="node"><div class="k">02 · Retrieve</div><h4>RAG</h4><p>Retrieval tuned to user phrasing, with sample queries, self-contained answers and citation rules.</p></div>
-      <div class="node"><div class="k">03 · Protect</div><h4>Guardrails</h4><p>Content filters, PII/sensitive-topic controls and prompt-attack defense wrapped around every model call.</p></div>
-      <div class="node"><div class="k">04 · Act</div><h4>Agents &amp; AgentCore</h4><p>Tool-using agents on Bedrock AgentCore: clarify → retrieve → answer from retrieved text only.</p></div>
-      <div class="node"><div class="k">05 · Operate</div><h4>Secure integration</h4><p>Tenant-aware, observable services with audit trails, cost controls and measurable quality targets.</p></div>
-    </div>
+    <div class="arch rv">
+      <div class="node"><div class="k">01 · Ground</div><h4>Knowledge Bases</h4><p>Curated, templated, text-only KB articles with metadata sidecars; chunk-friendly and sensitive-data validated before ingest.</p></div>
+      <div class="node"><div class="k">02 · Retrieve</div><h4>RAG</h4><p>Retrieval tuned to user phrasing, with sample queries, self-contained answers and citation rules.</p></div>
+      <div class="node"><div class="k">03 · Protect</div><h4>Guardrails</h4><p>Content filters, PII/sensitive-topic controls and prompt-attack defense wrapped around every model call.</p></div>
+      <div class="node"><div class="k">04 · Act</div><h4>Agents &amp; AgentCore</h4><p>Tool-using agents on Bedrock AgentCore: clarify → retrieve → answer from retrieved text only.</p></div>
+      <div class="node"><div class="k">05 · Operate</div><h4>Secure integration</h4><p>Tenant-aware, observable services with audit trails, cost controls and measurable quality targets.</p></div>
+    </div>
 
-    <div class="grid g3">
-      <div class="card rv"><div class="ico"> </div><h3>AI Developer-Portal Service Desk</h3><p>Designed an AI agent service desk on AWS Bedrock Knowledge Bases so developers self-serve answers, cutting onboarding friction and support load. It evolved into Snap's first partner-facing chatbot (see R+D+I below).</p><div class="tags"><span class="tag hot">Bedrock KB</span><span class="tag hot">Guardrails</span><span class="tag hot">AgentCore</span><span class="tag">Spring AI</span></div></div>
-      <div class="card rv"><div class="ico"> </div><h3>Responsible AI by design</h3><p>Guardrails, sensitive-data validation gates, least-privilege secrets handling and human-in-the-loop approvals baked into agent workflows — not bolted on.</p><div class="tags"><span class="tag hot">Bedrock Guardrails</span><span class="tag">OWASP</span><span class="tag">Secrets Manager</span></div></div>
-      <div class="card rv"><div class="ico"> </div><h3>AI across the SDLC</h3><p>Agents for code review, OpenAPI generation, dependency upgrades, release prep, ADRs and tech docs — turning every stage of delivery into a repeatable, auditable pipeline.</p><div class="tags"><span class="tag hot">Cursor</span><span class="tag hot">Claude</span><span class="tag">Sub-agents</span><span class="tag">Skills &amp; rules</span></div></div>
-    </div>
-  </div>
+    <div class="grid g3">
+      <div class="card rv"><div class="ico">🧠</div><h3>AI Developer-Portal Service Desk</h3><p>Designed an AI agent service desk on AWS Bedrock Knowledge Bases so developers self-serve answers, cutting onboarding friction and support load. It evolved into Snap's first partner-facing chatbot (see R+D+I below).</p><div class="tags"><span class="tag hot">Bedrock KB</span><span class="tag hot">Guardrails</span><span class="tag hot">AgentCore</span><span class="tag">Spring AI</span></div></div>
+      <div class="card rv"><div class="ico">🛡️</div><h3>Responsible AI by design</h3><p>Guardrails, sensitive-data validation gates, least-privilege secrets handling and human-in-the-loop approvals baked into agent workflows — not bolted on.</p><div class="tags"><span class="tag hot">Bedrock Guardrails</span><span class="tag">OWASP</span><span class="tag">Secrets Manager</span></div></div>
+      <div class="card rv"><div class="ico">⚡</div><h3>AI across the SDLC</h3><p>Agents for code review, OpenAPI generation, dependency upgrades, release prep, ADRs and tech docs — turning every stage of delivery into a repeatable, auditable pipeline.</p><div class="tags"><span class="tag hot">Cursor</span><span class="tag hot">Claude</span><span class="tag">Sub-agents</span><span class="tag">Skills &amp; rules</span></div></div>
+    </div>
+  </div>
 </section>
 
 <!-- R+D+I -->
 <section id="rdi">
-  <div class="wrap">
-    <div class="eyebrow">03 · R+D+I</div>
-    <h2 class="title">Research, development &amp; <span class="grad">innovation</span> that ships</h2>
-    <p class="lead">I run innovation as an engineering discipline: a written decision record, peer and security review, measurable success criteria, a phased rollout and a rollback plan before anything reaches production.</p>
+  <div class="wrap">
+    <div class="eyebrow">03 · R+D+I</div>
+    <h2 class="title">Research, development &amp; <span class="grad">innovation</span> that ships</h2>
+    <p class="lead">I run innovation as an engineering discipline: a written decision record, peer and security review, measurable success criteria, a phased rollout and a rollback plan before anything reaches production.</p>
 
-    <div class="grid g2">
-      <div class="card rv">
-        <span class="pill" style="background:rgba(34,211,238,.1);color:var(--c1);border-color:rgba(34,211,238,.3)">First of its kind at Snap</span>
-        <h3 style="font-size:1.35rem">Partner-facing AI chatbot</h3>
-        <p>Proposed and led the design of Snap's first customer-facing AI agent: a support assistant for partner developers, built on AWS Bedrock with Knowledge Bases, Guardrails and AgentCore. Delivery is phased, starting with a deliberately small, low-cost MVP.</p>
-        <ul class="tli" style="list-style:none;padding:0;margin-top:14px"><li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Safe by design:</b> a strict scope boundary, grounded answers drawn only from approved documentation, and strong tenant isolation.</li>
-        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Cost-aware:</b> out-of-scope requests are stopped before they consume model resources.</li>
-        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Governed:</b> iterated through more than a dozen documented revisions with engineering, security and operations reviewers, including a formal security assessment.</li>
-        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Measured:</b> success tracked through answer quality, grounding, latency, cost and safety targets.</li></ul>
-        <div class="tags"><span class="tag hot">AWS Bedrock</span><span class="tag hot">Guardrails</span><span class="tag hot">Knowledge Bases</span><span class="tag hot">AgentCore</span><span class="tag">Responsible AI</span><span class="tag">ADR-driven</span></div>
-      </div>
+    <div class="grid g2">
+      <div class="card rv">
+        <span class="pill" style="background:rgba(34,211,238,.1);color:var(--c1);border-color:rgba(34,211,238,.3)">First of its kind at Snap</span>
+        <h3 style="font-size:1.35rem">Partner-facing AI chatbot</h3>
+        <p>Proposed and led the design of Snap's first customer-facing AI agent: a support assistant for partner developers, built on AWS Bedrock with Knowledge Bases, Guardrails and AgentCore. Delivery is phased, starting with a deliberately small, low-cost MVP.</p>
+        <ul class="tli" style="list-style:none;padding:0;margin-top:14px"><li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Safe by design:</b> a strict scope boundary, grounded answers drawn only from approved documentation, and strong tenant isolation.</li>
+        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Cost-aware:</b> out-of-scope requests are stopped before they consume model resources.</li>
+        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Governed:</b> iterated through more than a dozen documented revisions with engineering, security and operations reviewers, including a formal security assessment.</li>
+        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Measured:</b> success tracked through answer quality, grounding, latency, cost and safety targets.</li></ul>
+        <div class="tags"><span class="tag hot">AWS Bedrock</span><span class="tag hot">Guardrails</span><span class="tag hot">Knowledge Bases</span><span class="tag hot">AgentCore</span><span class="tag">Responsible AI</span><span class="tag">ADR-driven</span></div>
+      </div>
 
-      <div class="card rv">
-        <span class="pill">ADR approved</span>
-        <h3 style="font-size:1.35rem">AI-powered, risk-based QA expansion</h3>
-        <p>Redefined the scope of QA for the merchant platform. Beyond manual and automated feature testing, the approved proposal adds performance, security, API-specification and API-standards verification, orchestrated by AI agents inside the IDE and shaped together with the QA Manager and QA team.</p>
-        <ul class="tli" style="list-style:none;padding:0;margin-top:14px"><li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Evidence-based release decisions:</b> blocking criteria based on agreed risk metrics, with time-boxed, approved exceptions.</li>
-        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">No lost findings:</b> every actionable issue becomes owned, de-duplicated and traceable technical debt.</li>
-        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">AI that extends QA, not replaces it:</b> agents generate test cases from acceptance criteria and implemented behavior, surface edge cases and free up QA bandwidth.</li>
-        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Safe rollout:</b> pilot first, thresholds validated before enforcement, and existing quality gates left intact.</li></ul>
-        <div class="tags"><span class="tag hot">AI-assisted QA</span><span class="tag hot">Risk-based testing</span><span class="tag">Shift-left quality</span><span class="tag">Governance</span><span class="tag">Technical debt</span></div>
-      </div>
-    </div>
+      <div class="card rv">
+        <span class="pill">ADR approved</span>
+        <h3 style="font-size:1.35rem">AI-powered, risk-based QA expansion</h3>
+        <p>Redefined the scope of QA for the merchant platform. Beyond manual and automated feature testing, the approved proposal adds performance, security, API-specification and API-standards verification, orchestrated by AI agents inside the IDE and shaped together with the QA Manager and QA team.</p>
+        <ul class="tli" style="list-style:none;padding:0;margin-top:14px"><li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Evidence-based release decisions:</b> blocking criteria based on agreed risk metrics, with time-boxed, approved exceptions.</li>
+        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">No lost findings:</b> every actionable issue becomes owned, de-duplicated and traceable technical debt.</li>
+        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative;margin-bottom:6px"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">AI that extends QA, not replaces it:</b> agents generate test cases from acceptance criteria and implemented behavior, surface edge cases and free up QA bandwidth.</li>
+        <li style="color:var(--muted);font-size:.9rem;padding-left:18px;position:relative"><span style="position:absolute;left:0;color:var(--c3)">▸</span><b style="color:var(--text)">Safe rollout:</b> pilot first, thresholds validated before enforcement, and existing quality gates left intact.</li></ul>
+        <div class="tags"><span class="tag hot">AI-assisted QA</span><span class="tag hot">Risk-based testing</span><span class="tag">Shift-left quality</span><span class="tag">Governance</span><span class="tag">Technical debt</span></div>
+      </div>
+    </div>
 
-    <div class="grid g3" style="margin-top:20px">
-      <div class="card rv"><div class="ico"> </div><h3>Decisions in writing</h3><p>Architecture Decision Records with alternatives, trade-offs, success metrics and rollback plans.</p></div>
-      <div class="card rv"><div class="ico"> </div><h3>Co-created with the experts</h3><p>QA, Security, Platform and product partners shape each proposal before it's adopted.</p></div>
-      <div class="card rv"><div class="ico"> </div><h3>Pilot → measure → scale</h3><p>Small, reversible steps with baselines and thresholds agreed before enforcement.</p></div>
-    </div>
-  </div>
+    <div class="grid g3" style="margin-top:20px">
+      <div class="card rv"><div class="ico">📝</div><h3>Decisions in writing</h3><p>Architecture Decision Records with alternatives, trade-offs, success metrics and rollback plans.</p></div>
+      <div class="card rv"><div class="ico">🤝</div><h3>Co-created with the experts</h3><p>QA, Security, Platform and product partners shape each proposal before it's adopted.</p></div>
+      <div class="card rv"><div class="ico">🧪</div><h3>Pilot → measure → scale</h3><p>Small, reversible steps with baselines and thresholds agreed before enforcement.</p></div>
+    </div>
+  </div>
 </section>
 
 <!-- AGENT FACTORY -->
 <section id="agents">
-  <div class="wrap">
-    <div class="eyebrow">04 · Featured project</div>
-    <div class="feature rv">
-      <div class="feature-top">
-        <div>
-          <span class="pill">Built from scratch</span>
-          <h3>merchant-art-agents — an <span class="grad">agent factory</span> for the dev cycle</h3>
-          <p>A reusable library of Cursor <b>agents, skills and rules</b> that standardizes how our services are reviewed, upgraded, documented and released. One initializer agent installs the right toolkit into any repo based on its stack — Java Spring Boot, serverless, Node, Next.js/React/Prisma, PHP Laravel/Magento/WooCommerce, Liquibase.</p>
-          <p>Orchestrators detect the stack, delegate to specialist sub-agents, run gated procedures (build, tests, coverage, OWASP, N+1, acceptance criteria from Jira, Confluence tech docs) and end in a clear pass/fail report. Guardrails like <i>no automatic git writes</i>, freshness gates and token-saving rules keep autonomy safe and cost-aware.</p>
-          <div class="tags">
-            <span class="tag hot">Cursor</span><span class="tag hot">Multi-agent orchestration</span><span class="tag hot">Bedrock KB authoring</span>
-            <span class="tag">Jira + Confluence</span><span class="tag">OpenAPI</span><span class="tag">Sumo Logic</span><span class="tag">Maven · npm · Composer</span>
-          </div>
-        </div>
-        <div class="flow" aria-label="Agent orchestration diagram">
-          <div class="fl o">cursor-project-initializer <em>installs toolkit</em></div>
-          <div class="fl s">code-review-orchestrator <em>detect stack</em></div>
-          <div class="fl w">java-code-reviewer <em>gates</em></div>
-          <div class="fl w">owasp-validation <em>CVE scan</em></div>
-          <div class="fl w">acceptance-criteria-verifier <em>Jira → tests</em></div>
-          <div class="fl s">dependency-upgrade-orchestrator <em>plan → execute</em></div>
-          <div class="fl v">release-prep · version-definer <em>RM ready</em></div>
-          <div class="fl v">bedrock-kb-orchestrator <em>author → validate</em></div>
-        </div>
-      </div>
-      <div class="kpis">
-        <div class="kpi"><b class="grad" data-count="70">0</b><span>specialist agents</span></div>
-        <div class="kpi"><b class="grad" data-count="140" data-suffix="+">0</b><span>rules (.mdc)</span></div>
-        <div class="kpi"><b class="grad" data-count="60" data-suffix="+">0</b><span>skills</span></div>
-        <div class="kpi"><b class="grad" data-count="8" data-suffix="+">0</b><span>stacks covered</span></div>
-      </div>
-    </div>
+  <div class="wrap">
+    <div class="eyebrow">04 · Featured project</div>
+    <div class="feature rv">
+      <div class="feature-top">
+        <div>
+          <span class="pill">Built from scratch</span>
+          <h3>merchant-art-agents — an <span class="grad">agent factory</span> for the dev cycle</h3>
+          <p>A reusable library of Cursor <b>agents, skills and rules</b> that standardizes how our services are reviewed, upgraded, documented and released. One initializer agent installs the right toolkit into any repo based on its stack — Java Spring Boot, serverless, Node, Next.js/React/Prisma, PHP Laravel/Magento/WooCommerce, Liquibase.</p>
+          <p>Orchestrators detect the stack, delegate to specialist sub-agents, run gated procedures (build, tests, coverage, OWASP, N+1, acceptance criteria from Jira, Confluence tech docs) and end in a clear pass/fail report. Guardrails like <i>no automatic git writes</i>, freshness gates and token-saving rules keep autonomy safe and cost-aware.</p>
+          <div class="tags">
+            <span class="tag hot">Cursor</span><span class="tag hot">Multi-agent orchestration</span><span class="tag hot">Bedrock KB authoring</span>
+            <span class="tag">Jira + Confluence</span><span class="tag">OpenAPI</span><span class="tag">Sumo Logic</span><span class="tag">Maven · npm · Composer</span>
+          </div>
+        </div>
+        <div class="flow" aria-label="Agent orchestration diagram">
+          <div class="fl o">cursor-project-initializer <em>installs toolkit</em></div>
+          <div class="fl s">code-review-orchestrator <em>detect stack</em></div>
+          <div class="fl w">java-code-reviewer <em>gates</em></div>
+          <div class="fl w">owasp-validation <em>CVE scan</em></div>
+          <div class="fl w">acceptance-criteria-verifier <em>Jira → tests</em></div>
+          <div class="fl s">dependency-upgrade-orchestrator <em>plan → execute</em></div>
+          <div class="fl v">release-prep · version-definer <em>RM ready</em></div>
+          <div class="fl v">bedrock-kb-orchestrator <em>author → validate</em></div>
+        </div>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><b class="grad" data-count="70">0</b><span>specialist agents</span></div>
+        <div class="kpi"><b class="grad" data-count="140" data-suffix="+">0</b><span>rules (.mdc)</span></div>
+        <div class="kpi"><b class="grad" data-count="60" data-suffix="+">0</b><span>skills</span></div>
+        <div class="kpi"><b class="grad" data-count="8" data-suffix="+">0</b><span>stacks covered</span></div>
+      </div>
+    </div>
 
-    <div class="grid g3" style="margin-top:22px">
-      <div class="card rv"><div class="ico"> </div><h3>Automated code review</h3><p>Stack-aware reviewers with deterministic gates and a written verdict, so every PR gets the same rigor.</p></div>
-      <div class="card rv"><div class="ico"> </div><h3>Dependency upgrades</h3><p>Single-repo and multi-project batch flows with breaking-change preflight, planning and post-upgrade review.</p></div>
-      <div class="card rv"><div class="ico"> </div><h3>Docs, ADRs &amp; API specs</h3><p>OpenAPI generation, README updates, architectural viewpoints and ADRs generated and validated from source.</p></div>
-    </div>
-  </div>
+    <div class="grid g3" style="margin-top:22px">
+      <div class="card rv"><div class="ico">🔎</div><h3>Automated code review</h3><p>Stack-aware reviewers with deterministic gates and a written verdict, so every PR gets the same rigor.</p></div>
+      <div class="card rv"><div class="ico">⬆️</div><h3>Dependency upgrades</h3><p>Single-repo and multi-project batch flows with breaking-change preflight, planning and post-upgrade review.</p></div>
+      <div class="card rv"><div class="ico">📚</div><h3>Docs, ADRs &amp; API specs</h3><p>OpenAPI generation, README updates, architectural viewpoints and ADRs generated and validated from source.</p></div>
+    </div>
+  </div>
 </section>
 
 <!-- JOURNEY -->
 <section id="journey">
-  <div class="wrap">
-    <div class="eyebrow">05 · Career journey</div>
-    <h2 class="title">Two decades, <span class="grad">one through-line</span>: grow systems and people</h2>
-    <p class="lead">From global digital agencies to fintech platforms, each step added a layer — engineering, architecture, practice leadership, and now AI-native management.</p>
-    <div class="tl">
-      <div class="tli now rv"><div class="card">
-        <div class="yr">2021 — PRESENT</div><div class="rl">Senior Software Engineering Manager</div><div class="co">Snap Finance · FinTech · US &amp; UK markets</div>
-        <ul>
-          <li>Lead 2 cross-functional teams (12 engineers) in Costa Rica and India for the merchant vertical.</li>
-          <li>Modernized 12 legacy systems into cloud-native microservices and serverless — <b>time-to-market −45%</b>.</li>
-          <li>Pioneered AI-augmented engineering: Cursor/Claude agents, Bedrock KB service desk, AgentCore research.</li>
-          <li>R+D+I: led Snap's first partner-facing AI chatbot and an approved, AI-powered, risk-based expansion of the QA scope.</li>
-          <li>Company-wide R&amp;D: blue/green deployments, enterprise rules engine, SAFe adoption, Heroku→AWS migration.</li>
-          <li>Mentorship programs: <b>promotions +30%, attrition −80%</b>; L3 incidents −67%.</li>
-        </ul></div></div>
-      <div class="tli rv"><div class="card">
-        <div class="yr">2021 — PRESENT</div><div class="rl">Professor, Cybersecurity &amp; DevOps</div><div class="co">Universidad Creativa</div>
-        <ul><li>5 certification cohorts (~75 students), 95% completion; 20% of graduates advanced their careers.</li></ul></div></div>
-      <div class="tli rv"><div class="card">
-        <div class="yr">2017 — 2021</div><div class="rl">Lead Consultant &amp; Architecture Practice Lead</div><div class="co">Gorilla Logic · Technology consulting</div>
-        <ul>
-          <li>Founded the Architecture Guild; trained 20+ developers in clean code and event-driven design.</li>
-          <li>AWS certification programs enabled 40+ engineers to certify.</li>
-          <li>Clients: Western Asset, Asurint (velocity +45% in 3 sprints, daily releases), Arrow Electronics.</li>
-        </ul></div></div>
-      <div class="tli rv"><div class="card">
-        <div class="yr">2016 — 2017</div><div class="rl">Senior Engineer &amp; Technical Architect</div><div class="co">GFT Group · FinTech consulting</div>
-        <ul><li>Architecture for capital-markets clients (ICE, Cambridge Associates); CMMI standards and documentation.</li></ul></div></div>
-      <div class="tli rv"><div class="card">
-        <div class="yr">2005 — 2016</div><div class="rl">Tech Lead → Architect → Engineering Lead</div><div class="co">Syniverse · Prodigious/Publicis · POP Agency · AvVenta/Accenture · VIA</div>
-        <ul>
-          <li>Led cross-continental delivery for Renault &amp; Nissan, Home Depot, ESPN, Toyota, Lexus, GM and MTV.</li>
-          <li>Introduced Agile at Syniverse; opened a new country operation in Colombia.</li>
-        </ul></div></div>
-    </div>
-  </div>
+  <div class="wrap">
+    <div class="eyebrow">05 · Career journey</div>
+    <h2 class="title">Two decades, <span class="grad">one through-line</span>: grow systems and people</h2>
+    <p class="lead">From global digital agencies to fintech platforms, each step added a layer — engineering, architecture, practice leadership, and now AI-native management.</p>
+    <div class="tl">
+      <div class="tli now rv"><div class="card">
+        <div class="yr">2021 — PRESENT</div><div class="rl">Senior Software Engineering Manager</div><div class="co">Snap Finance · FinTech · US &amp; UK markets</div>
+        <ul>
+          <li>Lead 2 cross-functional teams (12 engineers) in Costa Rica and India for the merchant vertical.</li>
+          <li>Modernized 12 legacy systems into cloud-native microservices and serverless — <b>time-to-market −45%</b>.</li>
+          <li>Pioneered AI-augmented engineering: Cursor/Claude agents, Bedrock KB service desk, AgentCore research.</li>
+          <li>R+D+I: led Snap's first partner-facing AI chatbot and an approved, AI-powered, risk-based expansion of the QA scope.</li>
+          <li>Company-wide R&amp;D: blue/green deployments, enterprise rules engine, SAFe adoption, Heroku→AWS migration.</li>
+          <li>Mentorship programs: <b>promotions +30%, attrition −80%</b>; L3 incidents −67%.</li>
+        </ul></div></div>
+      <div class="tli rv"><div class="card">
+        <div class="yr">2021 — PRESENT</div><div class="rl">Professor, Cybersecurity &amp; DevOps</div><div class="co">Universidad Creativa</div>
+        <ul><li>5 certification cohorts (~75 students), 95% completion; 20% of graduates advanced their careers.</li></ul></div></div>
+      <div class="tli rv"><div class="card">
+        <div class="yr">2017 — 2021</div><div class="rl">Lead Consultant &amp; Architecture Practice Lead</div><div class="co">Gorilla Logic · Technology consulting</div>
+        <ul>
+          <li>Founded the Architecture Guild; trained 20+ developers in clean code and event-driven design.</li>
+          <li>AWS certification programs enabled 40+ engineers to certify.</li>
+          <li>Clients: Western Asset, Asurint (velocity +45% in 3 sprints, daily releases), Arrow Electronics.</li>
+        </ul></div></div>
+      <div class="tli rv"><div class="card">
+        <div class="yr">2016 — 2017</div><div class="rl">Senior Engineer &amp; Technical Architect</div><div class="co">GFT Group · FinTech consulting</div>
+        <ul><li>Architecture for capital-markets clients (ICE, Cambridge Associates); CMMI standards and documentation.</li></ul></div></div>
+      <div class="tli rv"><div class="card">
+        <div class="yr">2005 — 2016</div><div class="rl">Tech Lead → Architect → Engineering Lead</div><div class="co">Syniverse · Prodigious/Publicis · POP Agency · AvVenta/Accenture · VIA</div>
+        <ul>
+          <li>Led cross-continental delivery for Renault &amp; Nissan, Home Depot, ESPN, Toyota, Lexus, GM and MTV.</li>
+          <li>Introduced Agile at Syniverse; opened a new country operation in Colombia.</li>
+        </ul></div></div>
+    </div>
+  </div>
 </section>
 
 <!-- FUTURE SKILLS -->
 <section id="future">
-  <div class="wrap">
-    <div class="eyebrow">06 · Future-ready</div>
-    <h2 class="title">The skills that will matter — and <span class="grad">where I'm investing</span></h2>
-    <p class="lead">Synthesizing 2026 hiring and leadership research, these are the capabilities I see compounding most for engineers and for the managers who lead them.</p>
+  <div class="wrap">
+    <div class="eyebrow">06 · Future-ready</div>
+    <h2 class="title">The skills that will matter — and <span class="grad">where I'm investing</span></h2>
+    <p class="lead">Synthesizing 2026 hiring and leadership research, these are the capabilities I see compounding most for engineers and for the managers who lead them.</p>
 
-    <div class="tabs" role="tablist">
-      <button class="tab on" data-p="p1">For software engineering</button>
-      <button class="tab" data-p="p2">For engineering management</button>
-    </div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" data-p="p1">For software engineering</button>
+      <button class="tab" data-p="p2">For engineering management</button>
+    </div>
 
-    <div class="grid g2 panel on" id="p1">
-      <div class="card">
-        <div class="bar"><div class="h"><span>Agent design &amp; orchestration</span><span>core focus</span></div><div class="track"><div class="fill" data-w="92"></div></div></div>
-        <div class="bar"><div class="h"><span>RAG, retrieval &amp; context engineering</span><span>core focus</span></div><div class="track"><div class="fill" data-w="90"></div></div></div>
-        <div class="bar"><div class="h"><span>LLM integration, tool use &amp; structured outputs</span><span>core focus</span></div><div class="track"><div class="fill" data-w="86"></div></div></div>
-        <div class="bar"><div class="h"><span>AI safety, guardrails &amp; governance</span><span>core focus</span></div><div class="track"><div class="fill" data-w="84"></div></div></div>
-        <div class="bar"><div class="h"><span>Evaluation &amp; observability of AI systems</span><span>growing</span></div><div class="track"><div class="fill" data-w="68"></div></div></div>
-      </div>
-      <div class="card">
-        <div class="bar"><div class="h"><span>Architecture &amp; system design judgment</span><span>strength</span></div><div class="track"><div class="fill" data-w="95"></div></div></div>
-        <div class="bar"><div class="h"><span>Cloud-native, serverless &amp; platform engineering</span><span>strength</span></div><div class="track"><div class="fill" data-w="93"></div></div></div>
-        <div class="bar"><div class="h"><span>Security &amp; supply-chain (DevSecOps)</span><span>strength</span></div><div class="track"><div class="fill" data-w="88"></div></div></div>
-        <div class="bar"><div class="h"><span>Reviewing &amp; verifying AI-generated code</span><span>core focus</span></div><div class="track"><div class="fill" data-w="90"></div></div></div>
-        <div class="bar"><div class="h"><span>Spec-driven &amp; test-first delivery</span><span>strength</span></div><div class="track"><div class="fill" data-w="87"></div></div></div>
-      </div>
-    </div>
+    <div class="grid g2 panel on" id="p1">
+      <div class="card">
+        <div class="bar"><div class="h"><span>Agent design &amp; orchestration</span><span>core focus</span></div><div class="track"><div class="fill" data-w="92"></div></div></div>
+        <div class="bar"><div class="h"><span>RAG, retrieval &amp; context engineering</span><span>core focus</span></div><div class="track"><div class="fill" data-w="90"></div></div></div>
+        <div class="bar"><div class="h"><span>LLM integration, tool use &amp; structured outputs</span><span>core focus</span></div><div class="track"><div class="fill" data-w="86"></div></div></div>
+        <div class="bar"><div class="h"><span>AI safety, guardrails &amp; governance</span><span>core focus</span></div><div class="track"><div class="fill" data-w="84"></div></div></div>
+        <div class="bar"><div class="h"><span>Evaluation &amp; observability of AI systems</span><span>growing</span></div><div class="track"><div class="fill" data-w="68"></div></div></div>
+      </div>
+      <div class="card">
+        <div class="bar"><div class="h"><span>Architecture &amp; system design judgment</span><span>strength</span></div><div class="track"><div class="fill" data-w="95"></div></div></div>
+        <div class="bar"><div class="h"><span>Cloud-native, serverless &amp; platform engineering</span><span>strength</span></div><div class="track"><div class="fill" data-w="93"></div></div></div>
+        <div class="bar"><div class="h"><span>Security &amp; supply-chain (DevSecOps)</span><span>strength</span></div><div class="track"><div class="fill" data-w="88"></div></div></div>
+        <div class="bar"><div class="h"><span>Reviewing &amp; verifying AI-generated code</span><span>core focus</span></div><div class="track"><div class="fill" data-w="90"></div></div></div>
+        <div class="bar"><div class="h"><span>Spec-driven &amp; test-first delivery</span><span>strength</span></div><div class="track"><div class="fill" data-w="87"></div></div></div>
+      </div>
+    </div>
 
-    <div class="grid g2 panel" id="p2">
-      <div class="card">
-        <div class="bar"><div class="h"><span>Leading AI-augmented teams &amp; AI literacy</span><span>core focus</span></div><div class="track"><div class="fill" data-w="90"></div></div></div>
-        <div class="bar"><div class="h"><span>Measuring impact (DORA, cycle time, quality)</span><span>strength</span></div><div class="track"><div class="fill" data-w="82"></div></div></div>
-        <div class="bar"><div class="h"><span>Technology strategy &amp; roadmapping</span><span>strength</span></div><div class="track"><div class="fill" data-w="92"></div></div></div>
-        <div class="bar"><div class="h"><span>Risk, governance &amp; responsible AI policy</span><span>growing</span></div><div class="track"><div class="fill" data-w="78"></div></div></div>
-        <div class="bar"><div class="h"><span>Managing tech debt as AI output scales</span><span>strength</span></div><div class="track"><div class="fill" data-w="86"></div></div></div>
-      </div>
-      <div class="card">
-        <div class="bar"><div class="h"><span>Communication, alignment &amp; stakeholder trust</span><span>strength</span></div><div class="track"><div class="fill" data-w="94"></div></div></div>
-        <div class="bar"><div class="h"><span>Psychological safety &amp; burnout prevention</span><span>differentiator</span></div><div class="track"><div class="fill" data-w="96"></div></div></div>
-        <div class="bar"><div class="h"><span>Mentoring &amp; career pathing in a changing market</span><span>differentiator</span></div><div class="track"><div class="fill" data-w="95"></div></div></div>
-        <div class="bar"><div class="h"><span>Distributed &amp; cross-cultural teams</span><span>strength</span></div><div class="track"><div class="fill" data-w="94"></div></div></div>
-        <div class="bar"><div class="h"><span>Change management &amp; workflow redesign</span><span>strength</span></div><div class="track"><div class="fill" data-w="88"></div></div></div>
-      </div>
-    </div>
-    <p class="note">Self-assessed emphasis, not certifications. Direction informed by 2026 industry commentary such as <a href="https://leaddev.com/technical-direction/the-ai-augmented-team-rethinking-roles-skills-and-leadership" target="_blank" rel="noopener">LeadDev on AI-augmented teams</a> and recurring hiring-trend roundups on agent design, RAG, LLM integration and AI governance.</p>
-  </div>
+    <div class="grid g2 panel" id="p2">
+      <div class="card">
+        <div class="bar"><div class="h"><span>Leading AI-augmented teams &amp; AI literacy</span><span>core focus</span></div><div class="track"><div class="fill" data-w="90"></div></div></div>
+        <div class="bar"><div class="h"><span>Measuring impact (DORA, cycle time, quality)</span><span>strength</span></div><div class="track"><div class="fill" data-w="82"></div></div></div>
+        <div class="bar"><div class="h"><span>Technology strategy &amp; roadmapping</span><span>strength</span></div><div class="track"><div class="fill" data-w="92"></div></div></div>
+        <div class="bar"><div class="h"><span>Risk, governance &amp; responsible AI policy</span><span>growing</span></div><div class="track"><div class="fill" data-w="78"></div></div></div>
+        <div class="bar"><div class="h"><span>Managing tech debt as AI output scales</span><span>strength</span></div><div class="track"><div class="fill" data-w="86"></div></div></div>
+      </div>
+      <div class="card">
+        <div class="bar"><div class="h"><span>Communication, alignment &amp; stakeholder trust</span><span>strength</span></div><div class="track"><div class="fill" data-w="94"></div></div></div>
+        <div class="bar"><div class="h"><span>Psychological safety &amp; burnout prevention</span><span>differentiator</span></div><div class="track"><div class="fill" data-w="96"></div></div></div>
+        <div class="bar"><div class="h"><span>Mentoring &amp; career pathing in a changing market</span><span>differentiator</span></div><div class="track"><div class="fill" data-w="95"></div></div></div>
+        <div class="bar"><div class="h"><span>Distributed &amp; cross-cultural teams</span><span>strength</span></div><div class="track"><div class="fill" data-w="94"></div></div></div>
+        <div class="bar"><div class="h"><span>Change management &amp; workflow redesign</span><span>strength</span></div><div class="track"><div class="fill" data-w="88"></div></div></div>
+      </div>
+    </div>
+    <p class="note">Self-assessed emphasis, not certifications. Direction informed by 2026 industry commentary such as <a href="https://leaddev.com/technical-direction/the-ai-augmented-team-rethinking-roles-skills-and-leadership" target="_blank" rel="noopener">LeadDev on AI-augmented teams</a> and recurring hiring-trend roundups on agent design, RAG, LLM integration and AI governance.</p>
+  </div>
 </section>
 
 <!-- PROJECTS -->
 <section id="projects">
-  <div class="wrap">
-    <div class="eyebrow">07 · Selected work</div>
-    <h2 class="title">Platforms &amp; <span class="grad">outcomes</span></h2>
-    <div class="grid g3">
-      <div class="card rv"><div class="ico"> </div><h3>Fintech Platform Modernization</h3><p>Decomposed a monolith into ~10 microservices: +40% deployability, faster incident resolution, teams across multiple countries.</p><div class="tags"><span class="tag">Spring Boot</span><span class="tag">AWS</span><span class="tag">Kubernetes</span><span class="tag">Terraform</span></div></div>
-      <div class="card rv"><div class="ico"> </div><h3>Quality &amp; Testing Excellence</h3><p>JaCoCo standards lifted coverage from 15% to 87% across 15+ services; critical production incidents down 48%.</p><div class="tags"><span class="tag">JUnit</span><span class="tag">JaCoCo</span><span class="tag">Testcontainers</span></div></div>
-      <div class="card rv"><div class="ico"> </div><h3>Global Data Integration</h3><p>Secure pipelines integrating third-party apps for 20+ markets across CSV, XML and Excel formats.</p><div class="tags"><span class="tag">Java</span><span class="tag">Kafka</span><span class="tag">MuleSoft</span><span class="tag">MongoDB</span></div></div>
-      <div class="card rv"><div class="ico"> </div><h3>Cloud Migration &amp; DevOps</h3><p>Moved critical on-prem and Heroku workloads to AWS with CI/CD, IaC and proactive monitoring.</p><div class="tags"><span class="tag">AWS</span><span class="tag">Jenkins</span><span class="tag">Ansible</span><span class="tag">Prometheus</span></div></div>
-      <div class="card rv"><div class="ico"> </div><h3>Security &amp; Compliance</h3><p>SonarQube, OWASP dependency-check and Armor Code automated across services, now enforced by review agents.</p><div class="tags"><span class="tag">SonarQube</span><span class="tag">OWASP</span><span class="tag">Spring Security</span></div></div>
-      <div class="card rv"><div class="ico"> </div><h3>Event-Driven Architecture</h3><p>Lead Kafka administrator across global environments; key streaming decisions for a high-throughput platform.</p><div class="tags"><span class="tag">Kafka</span><span class="tag">Airflow</span><span class="tag">SQS</span><span class="tag">Redis</span></div></div>
-    </div>
-  </div>
+  <div class="wrap">
+    <div class="eyebrow">07 · Selected work</div>
+    <h2 class="title">Platforms &amp; <span class="grad">outcomes</span></h2>
+    <div class="grid g3">
+      <div class="card rv"><div class="ico">🚀</div><h3>Fintech Platform Modernization</h3><p>Decomposed a monolith into ~10 microservices: +40% deployability, faster incident resolution, teams across multiple countries.</p><div class="tags"><span class="tag">Spring Boot</span><span class="tag">AWS</span><span class="tag">Kubernetes</span><span class="tag">Terraform</span></div></div>
+      <div class="card rv"><div class="ico">🎯</div><h3>Quality &amp; Testing Excellence</h3><p>JaCoCo standards lifted coverage from 15% to 87% across 15+ services; critical production incidents down 48%.</p><div class="tags"><span class="tag">JUnit</span><span class="tag">JaCoCo</span><span class="tag">Testcontainers</span></div></div>
+      <div class="card rv"><div class="ico">🌍</div><h3>Global Data Integration</h3><p>Secure pipelines integrating third-party apps for 20+ markets across CSV, XML and Excel formats.</p><div class="tags"><span class="tag">Java</span><span class="tag">Kafka</span><span class="tag">MuleSoft</span><span class="tag">MongoDB</span></div></div>
+      <div class="card rv"><div class="ico">☁️</div><h3>Cloud Migration &amp; DevOps</h3><p>Moved critical on-prem and Heroku workloads to AWS with CI/CD, IaC and proactive monitoring.</p><div class="tags"><span class="tag">AWS</span><span class="tag">Jenkins</span><span class="tag">Ansible</span><span class="tag">Prometheus</span></div></div>
+      <div class="card rv"><div class="ico">🔐</div><h3>Security &amp; Compliance</h3><p>SonarQube, OWASP dependency-check and Armor Code automated across services, now enforced by review agents.</p><div class="tags"><span class="tag">SonarQube</span><span class="tag">OWASP</span><span class="tag">Spring Security</span></div></div>
+      <div class="card rv"><div class="ico">📡</div><h3>Event-Driven Architecture</h3><p>Lead Kafka administrator across global environments; key streaming decisions for a high-throughput platform.</p><div class="tags"><span class="tag">Kafka</span><span class="tag">Airflow</span><span class="tag">SQS</span><span class="tag">Redis</span></div></div>
+    </div>
+  </div>
 </section>
 
 <!-- SKILLS -->
 <section id="skills">
-  <div class="wrap">
-    <div class="eyebrow">08 · Stack</div>
-    <h2 class="title">Toolbox</h2>
-    <div class="grid g3">
-      <div class="card cat rv"><h3><i> </i> AI &amp; Agents</h3><div class="tags"><span class="tag hot">AWS Bedrock</span><span class="tag hot">Bedrock Guardrails</span><span class="tag hot">Knowledge Bases</span><span class="tag hot">AgentCore</span><span class="tag hot">RAG</span><span class="tag hot">LLMs</span><span class="tag hot">Cursor</span><span class="tag hot">Claude</span><span class="tag">Spring AI</span><span class="tag">Prompt &amp; context eng.</span></div></div>
-      <div class="card cat rv"><h3><i> </i> Core Engineering</h3><div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">WebFlux</span><span class="tag">Hibernate</span><span class="tag">Kotlin</span><span class="tag">Python</span><span class="tag">Node</span><span class="tag">Angular</span></div></div>
-      <div class="card cat rv"><h3><i> </i> Cloud &amp; Platform</h3><div class="tags"><span class="tag">AWS</span><span class="tag">Azure</span><span class="tag">GCP</span><span class="tag">Lambda</span><span class="tag">Kubernetes</span><span class="tag">Docker</span><span class="tag">Terraform</span><span class="tag">Ansible</span></div></div>
-      <div class="card cat rv"><h3><i> </i> DevOps &amp; CI/CD</h3><div class="tags"><span class="tag">Jenkins</span><span class="tag">Concourse</span><span class="tag">Git</span><span class="tag">Gradle</span><span class="tag">Maven</span><span class="tag">Cypress</span><span class="tag">Blue/green</span></div></div>
-      <div class="card cat rv"><h3><i> </i> Data &amp; Messaging</h3><div class="tags"><span class="tag">Kafka</span><span class="tag">Airflow</span><span class="tag">SQS</span><span class="tag">PostgreSQL</span><span class="tag">MongoDB</span><span class="tag">DynamoDB</span><span class="tag">Redis</span><span class="tag">Liquibase</span></div></div>
-      <div class="card cat rv"><h3><i> </i> Security, Quality &amp; Observability</h3><div class="tags"><span class="tag">OWASP</span><span class="tag">SonarQube</span><span class="tag">Armor Code</span><span class="tag">JUnit</span><span class="tag">JaCoCo</span><span class="tag">Testcontainers</span><span class="tag">Prometheus</span><span class="tag">Grafana</span><span class="tag">New Relic</span><span class="tag">Sumo Logic</span></div></div>
-      <div class="card cat rv"><h3><i> </i> Leadership &amp; Delivery</h3><div class="tags"><span class="tag">Agile / Scrum</span><span class="tag">Kanban</span><span class="tag">SAFe</span><span class="tag">Roadmapping</span><span class="tag">Mentoring</span><span class="tag">Hiring &amp; growth</span><span class="tag">Stakeholder comms</span></div></div>
-      <div class="card cat rv"><h3><i> </i> Architecture</h3><div class="tags"><span class="tag">Microservices</span><span class="tag">Event-driven</span><span class="tag">Serverless</span><span class="tag">API Gateway</span><span class="tag">OpenAPI</span><span class="tag">Drools rules engine</span><span class="tag">ADRs</span></div></div>
-      <div class="card cat rv"><h3><i> </i> Education</h3><div class="tags"><span class="tag">M.Sc. IT Management (in progress) · TEC</span><span class="tag">B.A. Psychology, honors · UCR</span><span class="tag">B.Sc. Systems Engineering · ULatina</span></div><p style="margin-top:12px;font-size:.84rem">Co-author, peer-reviewed research on aggressive road behavior (Elsevier — Ansiedad y Estrés). 2004 Programming Olympics winner.</p></div>
-    </div>
-  </div>
+  <div class="wrap">
+    <div class="eyebrow">08 · Stack</div>
+    <h2 class="title">Toolbox</h2>
+    <div class="grid g3">
+      <div class="card cat rv"><h3><i>🤖</i> AI &amp; Agents</h3><div class="tags"><span class="tag hot">AWS Bedrock</span><span class="tag hot">Bedrock Guardrails</span><span class="tag hot">Knowledge Bases</span><span class="tag hot">AgentCore</span><span class="tag hot">RAG</span><span class="tag hot">LLMs</span><span class="tag hot">Cursor</span><span class="tag hot">Claude</span><span class="tag">Spring AI</span><span class="tag">Prompt &amp; context eng.</span></div></div>
+      <div class="card cat rv"><h3><i>☕</i> Core Engineering</h3><div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">WebFlux</span><span class="tag">Hibernate</span><span class="tag">Kotlin</span><span class="tag">Python</span><span class="tag">Node</span><span class="tag">Angular</span></div></div>
+      <div class="card cat rv"><h3><i>☁️</i> Cloud &amp; Platform</h3><div class="tags"><span class="tag">AWS</span><span class="tag">Azure</span><span class="tag">GCP</span><span class="tag">Lambda</span><span class="tag">Kubernetes</span><span class="tag">Docker</span><span class="tag">Terraform</span><span class="tag">Ansible</span></div></div>
+      <div class="card cat rv"><h3><i>🔄</i> DevOps &amp; CI/CD</h3><div class="tags"><span class="tag">Jenkins</span><span class="tag">Concourse</span><span class="tag">Git</span><span class="tag">Gradle</span><span class="tag">Maven</span><span class="tag">Cypress</span><span class="tag">Blue/green</span></div></div>
+      <div class="card cat rv"><h3><i>📡</i> Data &amp; Messaging</h3><div class="tags"><span class="tag">Kafka</span><span class="tag">Airflow</span><span class="tag">SQS</span><span class="tag">PostgreSQL</span><span class="tag">MongoDB</span><span class="tag">DynamoDB</span><span class="tag">Redis</span><span class="tag">Liquibase</span></div></div>
+      <div class="card cat rv"><h3><i>🔒</i> Security, Quality &amp; Observability</h3><div class="tags"><span class="tag">OWASP</span><span class="tag">SonarQube</span><span class="tag">Armor Code</span><span class="tag">JUnit</span><span class="tag">JaCoCo</span><span class="tag">Testcontainers</span><span class="tag">Prometheus</span><span class="tag">Grafana</span><span class="tag">New Relic</span><span class="tag">Sumo Logic</span></div></div>
+      <div class="card cat rv"><h3><i>🧭</i> Leadership &amp; Delivery</h3><div class="tags"><span class="tag">Agile / Scrum</span><span class="tag">Kanban</span><span class="tag">SAFe</span><span class="tag">Roadmapping</span><span class="tag">Mentoring</span><span class="tag">Hiring &amp; growth</span><span class="tag">Stakeholder comms</span></div></div>
+      <div class="card cat rv"><h3><i>🧱</i> Architecture</h3><div class="tags"><span class="tag">Microservices</span><span class="tag">Event-driven</span><span class="tag">Serverless</span><span class="tag">API Gateway</span><span class="tag">OpenAPI</span><span class="tag">Drools rules engine</span><span class="tag">ADRs</span></div></div>
+      <div class="card cat rv"><h3><i>🎓</i> Education</h3><div class="tags"><span class="tag">M.Sc. IT Management (in progress) · TEC</span><span class="tag">B.A. Psychology, honors · UCR</span><span class="tag">B.Sc. Systems Engineering · ULatina</span></div><p style="margin-top:12px;font-size:.84rem">Co-author, peer-reviewed research on aggressive road behavior (Elsevier — Ansiedad y Estrés). 2004 Programming Olympics winner.</p></div>
+    </div>
+  </div>
 </section>
 
 <!-- CONTACT -->
 <section id="contact" style="padding-top:40px">
-  <div class="wrap">
-    <div class="cta rv">
-      <h2>Let's build the <span class="grad">next way of building software</span></h2>
-      <p>Open to conversations about AI-native engineering, agentic developer workflows, and leading global teams through the shift.</p>
-      <div class="btns" style="justify-content:center">
-        <a href="mailto:minor.madrigal@gmail.com" class="btn p"> Email me</a>
-        <a href="https://www.linkedin.com/in/minormadrigal/" target="_blank" rel="noopener" class="btn g">LinkedIn ↗</a>
-      </div>
-      <p style="margin:22px 0 0;font-size:.85rem;color:var(--dim)"> Heredia, Costa Rica</p>
-    </div>
-  </div>
+  <div class="wrap">
+    <div class="cta rv">
+      <h2>Let's build the <span class="grad">next way of building software</span></h2>
+      <p>Open to conversations about AI-native engineering, agentic developer workflows, and leading global teams through the shift.</p>
+      <div class="btns" style="justify-content:center">
+        <a href="mailto:minor.madrigal@gmail.com" class="btn p">✉ Email me</a>
+        <a href="https://www.linkedin.com/in/minormadrigal/" target="_blank" rel="noopener" class="btn g">LinkedIn ↗</a>
+      </div>
+      <p style="margin:22px 0 0;font-size:.85rem;color:var(--dim)">📍 Heredia, Costa Rica</p>
+    </div>
+  </div>
 </section>
 </main>
 
 <footer>
-  <div class="wrap">© 2026 Minor Madrigal Arroyo · Senior Software Engineering Manager · AI-Native Engineering · Psychologist · Professor</div>
+  <div class="wrap">© 2026 Minor Madrigal Arroyo · Senior Software Engineering Manager · AI-Native Engineering · Psychologist · Professor</div>
 </footer>
 
 <script>
 // Terminal typing
 (function(){
-  const el=document.getElementById('term');
-  const lines=[
-    '<span class="pr">$</span> cursor run <span class="ag">code-review-orchestrator</span>',
-    '<span class="cm"># detecting stack…</span> <span class="ok">java-spring-boot</span>',
-    '<span class="ag">▸</span> git-operations-coordinator <span class="ok">✓ synced</span>',
-    '<span class="ag">▸</span> java-code-reviewer <span class="cm">build · tests · coverage</span>',
-    '<span class="ag">▸</span> owasp-validation <span class="ok">✓ 0 critical CVEs</span>',
-    '<span class="ag">▸</span> acceptance-criteria-verifier <span class="ok">✓ AC → tests</span>',
-    '<span class="ag">▸</span> n+1 / hot-path check <span class="wn"> 1 suggestion</span>',
-    '<span class="pp">▸</span> report-writer <span class="cm">→ docs/review-report.md</span>',
-    '<span class="ok">VERDICT: PASS</span> <span class="cm">· human approves merge</span>',
-    '<span class="pr">$</span> <span class="cursor"></span>'
-  ];
-  lines.forEach((h,i)=>{const d=document.createElement('div');d.className='l';d.innerHTML=h;d.style.animationDelay=(0.5+i*0.65)+'s';el.appendChild(d)});
+  const el=document.getElementById('term');
+  const lines=[
+    '<span class="pr">$</span> cursor run <span class="ag">code-review-orchestrator</span>',
+    '<span class="cm"># detecting stack…</span> <span class="ok">java-spring-boot</span>',
+    '<span class="ag">▸</span> git-operations-coordinator <span class="ok">✓ synced</span>',
+    '<span class="ag">▸</span> java-code-reviewer <span class="cm">build · tests · coverage</span>',
+    '<span class="ag">▸</span> owasp-validation <span class="ok">✓ 0 critical CVEs</span>',
+    '<span class="ag">▸</span> acceptance-criteria-verifier <span class="ok">✓ AC → tests</span>',
+    '<span class="ag">▸</span> n+1 / hot-path check <span class="wn">⚠ 1 suggestion</span>',
+    '<span class="pp">▸</span> report-writer <span class="cm">→ docs/review-report.md</span>',
+    '<span class="ok">VERDICT: PASS</span> <span class="cm">· human approves merge</span>',
+    '<span class="pr">$</span> <span class="cursor"></span>'
+  ];
+  lines.forEach((h,i)=>{const d=document.createElement('div');d.className='l';d.innerHTML=h;d.style.animationDelay=(0.5+i*0.65)+'s';el.appendChild(d)});
 })();
 
 // Reveal + counters + bars
 const io=new IntersectionObserver(es=>es.forEach(e=>{
-  if(!e.isIntersecting)return;
-  e.target.classList.add('in');
-  e.target.querySelectorAll('[data-count]').forEach(count);
-  if(e.target.matches('[data-count]'))count(e.target);
-  io.unobserve(e.target);
+  if(!e.isIntersecting)return;
+  e.target.classList.add('in');
+  e.target.querySelectorAll('[data-count]').forEach(count);
+  if(e.target.matches('[data-count]'))count(e.target);
+  io.unobserve(e.target);
 }),{threshold:.15});
 document.querySelectorAll('.rv').forEach(n=>io.observe(n));
 function count(n){
-  if(n.dataset.done)return;n.dataset.done=1;
-  const to=+n.dataset.count,suf=n.dataset.suffix||'',t0=performance.now();
-  (function f(t){const p=Math.min((t-t0)/1400,1);n.textContent=Math.round(to*(1-Math.pow(1-p,3)))+suf;if(p<1)requestAnimationFrame(f)})(t0);
+  if(n.dataset.done)return;n.dataset.done=1;
+  const to=+n.dataset.count,suf=n.dataset.suffix||'',t0=performance.now();
+  (function f(t){const p=Math.min((t-t0)/1400,1);n.textContent=Math.round(to*(1-Math.pow(1-p,3)))+suf;if(p<1)requestAnimationFrame(f)})(t0);
 }
 function fillBars(root){root.querySelectorAll('.fill').forEach(f=>{f.style.width='0';requestAnimationFrame(()=>requestAnimationFrame(()=>f.style.width=f.dataset.w+'%'))})}
 const fio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){fillBars(document.querySelector('.panel.on'));fio.disconnect()}}),{threshold:.2});
@@ -556,16 +556,16 @@ fio.observe(document.getElementById('p1'));
 
 // Tabs
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
-  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');
-  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on'));
-  const p=document.getElementById(t.dataset.p);p.classList.add('on');fillBars(p);
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));t.classList.add('on');
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on'));
+  const p=document.getElementById(t.dataset.p);p.classList.add('on');fillBars(p);
 }));
 
 // Active nav link
 const secs=[...document.querySelectorAll('section[id]')],links=[...document.querySelectorAll('.links a')];
 addEventListener('scroll',()=>{
-  const y=scrollY+140;let cur='';secs.forEach(s=>{if(s.offsetTop<=y)cur=s.id});
-  links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+cur));
+  const y=scrollY+140;let cur='';secs.forEach(s=>{if(s.offsetTop<=y)cur=s.id});
+  links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+cur));
 },{passive:true});
 </script>
 </body>
